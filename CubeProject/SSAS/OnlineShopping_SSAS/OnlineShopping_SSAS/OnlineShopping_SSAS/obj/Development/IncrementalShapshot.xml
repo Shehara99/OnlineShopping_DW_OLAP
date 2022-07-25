@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OnlineShopping_SSAS</Database>
+    <Server>(local)\SQLSERVER</Server>
+    <ConnectionString>Data Source=(local)\SQLSERVER;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>p/SfrRKjSbHA90JVWd+AINUesWM=5/18/2022 9:38:32 PM5/17/2022 9:30:33 PM</TimeStamp>
+        <ID>
+          <String>DS_OnlineShopping_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>5wUmalAHKgmKlrMBDe8eFu85tc8=5/18/2022 2:21:42 PM5/17/2022 9:31:28 PM</TimeStamp>
+        <ID>
+          <String>DSV_OnlineShopping_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DzZvagpcmGDEktx0pcCR2GZGRHI=5/18/2022 4:29:11 PM5/17/2022 9:32:10 PM</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>v+2V8fyWZrdLk72iegQkBaOSzDY=5/18/2022 4:12:27 PM5/17/2022 9:32:10 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pzDuzWoem4e1QB3nuZvN46sO9L4=5/18/2022 5:45:39 PM5/17/2022 9:32:10 PM</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jsw0q3z3xMbQftqG+4NE4DwyPSY=5/18/2022 4:29:11 PM5/17/2022 9:32:10 PM</TimeStamp>
+        <ID>
+          <String>Dim Courier</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3w/u45MGWo+NSQRJQgcR/cfS6iU=5/18/2022 8:58:24 PM5/18/2022 2:00:20 PM</TimeStamp>
+        <ID>
+          <String>Dim Order</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>S7rvK85HOeO9PJkWLotlS/Hd4c8=5/18/2022 10:17:45 PM5/17/2022 10:33:46 PMZGiVOZQASlv6PieGV1a0I05x39g=5/17/2022 10:33:46 PM5/17/2022 10:33:46 PM</TimeStamp>
+        <ID>
+          <String>DSV_OnlineShopping_DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>cs68Nvg2oNx5Bwy6hTnF2Rd/qrA=5/17/2022 9:30:00 PM5/17/2022 9:29:59 PM</TimeStamp>
+      <ID>
+        <String>OnlineShopping_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-18T16:49:30.193333Z</LastDeployed>
+</DeploymentSnapshot>
